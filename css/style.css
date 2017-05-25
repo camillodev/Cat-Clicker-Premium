@@ -1,0 +1,36 @@
+body{
+    display: flex;
+}
+
+.linha{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+.direita{
+    max-width: 40%;
+    padding: 0 10px;
+    width: 100%;
+}
+.esquerda{
+    max-width: 60%;
+    padding: 0 10px;
+}
+
+.card{
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+}
+
+.img{
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+}
+.btn{
+    background-color: #fff;
+    font-size: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: 5px;
+    cursor: pointer;
+}
